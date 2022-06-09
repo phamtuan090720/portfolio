@@ -1,0 +1,12 @@
+@import '../../../Assets/Sass/variable';
+
+.core__buttonLink {
+    text-decoration: none;
+
+    &.active {
+    }
+
+    &:visited {
+        color: $secondary-1;
+    }
+}

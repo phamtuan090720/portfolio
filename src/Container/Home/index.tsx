@@ -1,7 +1,9 @@
-import React from 'react'
-
+import React from "react";
+import LayoutHome from '../../Layout/Home';
 export default function HomePage() {
   return (
-    <div>HomePage</div>
-  )
+    <LayoutHome>
+      Hello
+    </LayoutHome>
+  );
 }
