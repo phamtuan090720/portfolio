@@ -15,7 +15,7 @@ export default function Navigation() {
           <ButtonLink
             className={Style["nav__link"]}
             path="home"
-            text="_home"
+            text="_hello"
             customStyle={{ active: Style["nav__link--active"] }}
             isActive={activeHome}
           />

@@ -1,0 +1,18 @@
+.wrap {
+
+    // width: 80%;
+    // margin: 0 auto;
+    .container {
+        display: flex;
+
+        .content__left {
+            display: flex;
+            align-items: center;
+        }
+
+        .content__right {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

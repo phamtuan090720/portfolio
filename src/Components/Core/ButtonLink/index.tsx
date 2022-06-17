@@ -10,12 +10,10 @@ interface ButtonLinkProps {
     core?: string;
   };
   isActive?: boolean;
+  disable?: boolean;
 }
-// const defaultProps = {
-//   isActive: false,
-// };
 const ButtonLink = (props: ButtonLinkProps) => {
-  const { path, className, text, customStyle } = props;
+  const { path, className, text, customStyle, disable = false } = props;
   return (
     <NavLink
       to={path || "/"}
