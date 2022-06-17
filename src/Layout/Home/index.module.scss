@@ -1,0 +1,30 @@
+@import '../../Assets/Sass/variable';
+
+.container {
+    max-width: 90%;
+    margin: 20px auto;
+    border: 1px solid $line;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+
+    .bg--right {
+        background: url('../../Assets/Image/Background_Blurs.png');
+        position: absolute;
+        width: 90%;
+        height: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        right: 0;
+        z-index: -1;
+    }
+
+    .content {
+        min-height: calc(100vh - 155px);
+        min-height: calc(100vh - 155px);
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
